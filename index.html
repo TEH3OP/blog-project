@@ -11,31 +11,42 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_header.css">
 </head>
 
 <body>
-    <header class="header">
+    <header class="header-background">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-3">
                     <div class="logo">
                         <a href="">
-                            <img src="" alt="Logo">
+                            <img src="blog_pics/logo.png" alt="Logo">
                         </a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-7">
                     <nav>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                        <ul class="header-menu">
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">WORK</a></li>
+                            <li><a href="#">TEAM</a></li>
+                            <li><a href="#">FEATURES</a></li>
+                            <li><a href="#">SERVICES</a></li>
+
                         </ul>
                     </nav>
                 </div>
-                <div class="col-xs-hidden col-sm-2">Search</div>
+                <div class="col-xs-hidden col-sm-2">
+                    <div class="header-frame-search">
+                        <div class="header-input-search">
+                            <input type="text" placeholder="SEARCH">
+                        </div>
+                        <!-- type="text" placeholder="SEARCH" -->
+                        <button class="header-button-search"></button>
+                    </div>
+                </div>
             </div>
         </div>
     </header>

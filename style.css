@@ -44,8 +44,8 @@ body{
         max-width: 58.3333;
     }
     .col-sm-2{
-        flex:0 0 16.66667;
-        max-width: 16.66667;
+        flex:0 0 16.66%;
+        max-width: 16.66%;
     }
 }
 
