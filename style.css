@@ -21,6 +21,10 @@ body{
     flex-wrap: wrap;
 }
 
+[class*=-title]{
+    text-transform:uppercase;
+}
+
 [class*=col-]{
     padding-left: 15px;
     padding-right: 15px;
