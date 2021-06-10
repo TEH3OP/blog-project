@@ -1,13 +1,30 @@
 .team-face-image{
     width: 260px;
     height: 300px;
-    margin: 0 auto;
-    background-image: url(blog_pics/image_man_face.png);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.face-image1{
+    background-image: url(blog_pics/image_man_face.png);
+}
+
+.face-image2{
+    background-image: url(blog_pics/image_man_face2.png);
+}
+
+.face-image3{
+    background-image: url(blog_pics/image_woman_face.png);
+}
+
+.face-image4{
+    background-image: url(blog_pics/image_man_face3.png);
+}
+
+
 .team-face-description-frame{
-    margin: 0 auto;
     width: 260px;
     height: 70px;
     background-color: #e1e6ea;
@@ -20,4 +37,40 @@
 
 .team-face-occupation{
     font-size: 14px;
+}
+
+.team-face-image>div{
+    width: 50px;
+    height: 50px;
+    background-color: #3a454d;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 60px;
+    margin: 0 2px;
+    cursor: pointer;
+    display: none;
+}
+
+/* .team-face-image:hover{
+    display: block;
+    border: 2px solid red;
+} */
+.team-frame{
+    margin: 10px auto;
+    width: fit-content;
+}
+
+.team-frame:hover>.team-face-image>div {
+    display: block;
+}
+.team-frame:hover>.team-face-description-frame{
+    background-color: #3a454d;
+}
+
+.team-frame:hover:hover>.team-face-description-frame>div{
+    color: white;
 }

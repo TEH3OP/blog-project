@@ -68,6 +68,11 @@ hr{
         flex:0 0 16.66%;
         max-width: 16.66%;
     }
+
+    .col-sm-6{
+        flex: 0 0 50%;
+        max-width: 50%;    
+    }
 }
 
 /* laptop */
@@ -81,6 +86,11 @@ hr{
 @media (min-width:1200px){
     .container{
         max-width: 1170px;
+    }
+
+    .col-xl-3{
+        flex: 0 0 25%;
+        max-width: 25%; 
     }
 }
 
@@ -105,6 +115,7 @@ hr{
 .pages-title{
     color: #292f36;
     font-size: 36px;
+    line-height: 100%;
     font-weight: bold;
     margin-top: 80px;
     margin-bottom: 60px;
