@@ -1,0 +1,23 @@
+.team-face-image{
+    width: 260px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url(blog_pics/image_man_face.png);
+    background-repeat: no-repeat;
+}
+
+.team-face-description-frame{
+    margin: 0 auto;
+    width: 260px;
+    height: 70px;
+    background-color: #e1e6ea;
+    padding: 15px 20px;
+}
+
+.team-face-title-name{
+    color: #292f36;
+}
+
+.team-face-occupation{
+    font-size: 14px;
+}

@@ -7,6 +7,10 @@ body{
     color: white;
 }
 
+hr{
+    color: #dde1e4;
+}
+
 .container{
     width: 100%;
     padding-left: 15px;
@@ -29,9 +33,18 @@ body{
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.to_upcase{
+    text-transform:uppercase;
+}
+
 .col-xs-12{
     flex: 0 0 100%;
     max-width: 100%;
+}
+
+.col-xs-6{
+    flex: 0 0 50%;
 }
 
 /* tablet */
@@ -80,4 +93,19 @@ body{
         display: flex;
         justify-content: center;
     }
+}
+
+.pages-frame{
+    padding-bottom: 60px;
+    font-size: 16px;
+    color: #8d8f92;
+    line-height: 20px;
+}
+
+.pages-title{
+    color: #292f36;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 60px;
 }
