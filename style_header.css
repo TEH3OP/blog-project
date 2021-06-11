@@ -1,6 +1,8 @@
 .header-background {
     background-color: #3b3850;
     padding: 25px 0;
+    position: sticky;
+    top: 0;
 }
 
 .content-header {
