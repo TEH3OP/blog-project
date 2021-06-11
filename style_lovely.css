@@ -1,0 +1,59 @@
+.lovely-background {
+    background-color: #3a454d;
+}
+
+.lovely-image-frame {
+    width: 290px;
+    height: 213px;
+    display: flex;
+    align-items: flex-end;
+    margin: 0 auto 30px;
+    background-repeat: no-repeat;
+}
+
+@media (min-width:1024px) {
+    .lovely-image-frame {
+        width: 360px;
+        height: 265px;
+    }
+}
+
+.lovely-image1 {
+    background-image: url(blog_pics/image_cableway.png);
+}
+
+.lovely-image2 {
+    background-image: url(blog_pics/image_scater.png);
+}
+
+.lovely-image3 {
+    background-image: url(blog_pics/image_road.png);
+}
+
+.lovely-image4 {
+    background-image: url(blog_pics/image_sea_boats.png);
+}
+
+.lovely-image5 {
+    background-image: url(blog_pics/image_mountains.png);
+}
+
+.lovely-image6 {
+    background-image: url(blog_pics/image_sea_gull.png);
+}
+
+.lovely-image-title {
+    height: 60px;
+    width: 100%;
+    background-color: #292f36;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 60px;
+    color: white;
+    padding-left: 20px;
+    display: none;
+}
+
+.lovely-image-frame:hover>.lovely-image-title {
+    display: block;
+}

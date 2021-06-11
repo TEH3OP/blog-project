@@ -28,7 +28,7 @@
     width: 260px;
     height: 70px;
     background-color: #e1e6ea;
-    padding: 15px 20px;
+    padding: 15px 20px 15px;
 }
 
 .team-face-title-name{
@@ -60,7 +60,7 @@
     border: 2px solid red;
 } */
 .team-frame{
-    margin: 10px auto;
+    margin: 0 auto 10px;
     width: fit-content;
 }
 
