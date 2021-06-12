@@ -57,3 +57,8 @@
 .lovely-image-frame:hover>.lovely-image-title {
     display: block;
 }
+
+.button-margin-center{
+    margin: 35px auto 0;
+    width: 150px;
+}
