@@ -1,0 +1,27 @@
+.what-we-do-frame{
+    width: 100%;
+    height: 300px;
+}
+
+.what-we-do-image-frame{
+    height: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.what-we-do-image1{
+    background-image: url(blog_pics/icon_gears.png);
+}
+
+.what-we-do-title{
+    font-size: 17px;
+    font-weight: bold;
+    color: #292f36;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.what-we-do-description{
+    /* font-family: ; */
+}
+

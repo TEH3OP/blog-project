@@ -143,12 +143,21 @@ hr{
 }
 
 .pages-title{
+    display: flex;
     color: #292f36;
     font-size: 36px;
     line-height: 100%;
     font-weight: bold;
     margin-bottom: 60px;
-    margin-left: 20px;
+}
+
+.pages-title::before{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 36px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
 }
 
 .color-white{
