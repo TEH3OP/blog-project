@@ -12,6 +12,16 @@
 .what-we-do-image1{
     background-image: url(blog_pics/icon_gears.png);
 }
+.what-we-do-image2{
+    background-image: url(blog_pics/icon_pencil.png);
+}
+.what-we-do-image3{
+    background-image: url(blog_pics/icon_mobile.png);
+}
+
+.what-we-do-image4{
+    background-image: url(blog_pics/icon_watch.png);
+}
 
 .what-we-do-title{
     font-size: 17px;
@@ -23,5 +33,6 @@
 
 .what-we-do-description{
     /* font-family: ; */
+    text-align: center;
 }
 
