@@ -56,6 +56,8 @@
 .team-frame{
     margin: 0 auto 10px;
     width: fit-content;
+    color: #8d8f92;
+
 }
 
 .team-frame:hover>.team-face-image>div {

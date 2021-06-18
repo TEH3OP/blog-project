@@ -1,5 +1,6 @@
 .lovely-background {
     background-color: #3a454d;
+    color: white;
 }
 
 .lovely-image-frame {
@@ -9,6 +10,7 @@
     align-items: flex-end;
     margin: 0 auto 30px;
     background-repeat: no-repeat;
+    /* color: white; */
 }
 
 @media (min-width:1024px) {

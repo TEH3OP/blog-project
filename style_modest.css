@@ -1,5 +1,6 @@
 .modest-desctription{
     margin-bottom: 30px;
+    color: #8d8f92;
 }
 
 .modest-frame-social{
@@ -30,6 +31,7 @@
 .modest-right-size-list-item>li{
     display: flex;
     margin-bottom: 30px;
+    color: #8d8f92;
 }
 
 .modest-number-square{
@@ -50,4 +52,5 @@
 
 .modest-list-title{
     margin-bottom: 15px;
+    color: #292f36;
 }

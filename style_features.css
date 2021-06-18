@@ -1,0 +1,48 @@
+.features-background {
+    background-color: #3a454d;
+}
+
+
+.features-image-frame {
+    width: 290px;
+    height: 193px;
+    background-repeat: no-repeat;
+}
+
+@media (min-width:1024px) {
+    .features-image-frame {
+        width: 360px;
+        height: 240px;
+    }
+}
+
+.features-image1{
+    background: url(blog_pics/image_cableway.png);
+}
+
+.features-image2{
+    background: url(blog_pics/image_scater.png);
+}
+
+.features-image3{
+    background: url(blog_pics/image_road.png);
+}
+
+.features-title{
+    margin-top: 50px;
+}
+
+.features-description{
+    margin-top: 25px;
+    line-height: 25px;
+}
+
+.contact-information-title{
+    margin-top: 55px;
+    color: #292f36;
+}
+
+.contact-information-description{
+    margin-top: 30px;
+    color: #292f36;
+}
