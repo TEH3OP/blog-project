@@ -1,42 +1,54 @@
 
 "use strict"
 let modal = document.querySelector(".modal");
+let grayFrameForNavMenu = document.querySelector(".close-nav-menu");
 console.log(modal);
 let moreDetailsButton = document.querySelectorAll(".more-details");
 console.log(moreDetailsButton);
 let closeButton = document.querySelector(".btn-close");
 console.log(closeButton);
 
-// moreDetailsButton.forEach(item => {
-//     item.addEventListener("click", function () {
-//         openModal();
-//     })
-// });
 
-
-function openModal() {
-    modal.classList.add("show");
-    modal.classList.remove("hide");
+function open(window) {
+    window.classList.add("show");
+    window.classList.remove("hide");
 }
 
-function closeModal() {
-    modal.classList.add("hide");
-    modal.classList.remove("show")
+function close(window) {
+    window.classList.add("hide");
+    window.classList.remove("show")
+}
+
+function closeModal(){
+    close(modal);
 }
 
 closeButton.addEventListener("click", closeModal);
 
 modal.addEventListener("click", function (e) {
     if (e.target === modal) {
-        closeModal();
+        close(modal);
     }
 })
+
+
+grayFrameForNavMenu.addEventListener("click", function (e) {
+    if (e.target === grayFrameForNavMenu) {
+        closeNavMenu();
+    }
+})
+
+function closeNavMenu(){
+    mainMenu.classList.remove("active-menu");
+    mobileMenu.classList.remove("active-menu");
+    close(grayFrameForNavMenu);
+}
 
 function showModalByScroll () {
   // console.log(window.pageYOffset)
   // console.log(document.documentElement.scrollHeight)
   if(window.pageYOffset > document.documentElement.scrollHeight/2) {
-      openModal()
+      open(modal)
       window.removeEventListener("scroll", showModalByScroll);
   }
 }
@@ -50,11 +62,12 @@ let mainMenu = document.querySelector(".navigation");
 // console.log(mainMenu);
 
 mobileMenu.addEventListener("click", function(){
-    mobileMenu.classList.toggle("active-menu");
-    if (mobileMenu.classList.contains("active-menu")){
+    if (!mobileMenu.classList.contains("active-menu")){
         mainMenu.classList.add("active-menu");
+        mobileMenu.classList.add("active-menu");
+        open(grayFrameForNavMenu);
     } else {
-        mainMenu.classList.remove("active-menu");
+        closeNavMenu();
     }
 });
 
